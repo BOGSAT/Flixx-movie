@@ -1,3 +1,5 @@
+providers = ["static"]
+
 [phases]
 setup = { nixPkgs = ["nginx"] }
 
