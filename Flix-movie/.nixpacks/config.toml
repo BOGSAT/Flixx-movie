@@ -1,0 +1,10 @@
+providers = ["static"]
+
+[phases]
+setup = { nixPkgs = ["nginx"] }
+
+[start]
+cmd = "nginx -c /assets/nginx.conf"
+
+[static]
+directory = "."
