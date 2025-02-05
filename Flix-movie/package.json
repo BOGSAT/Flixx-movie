@@ -1,0 +1,10 @@
+{
+  "name": "flixx",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve -s . -l 3002"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
