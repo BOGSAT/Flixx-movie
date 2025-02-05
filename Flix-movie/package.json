@@ -1,13 +1,13 @@
 {
   "name": "flixx",
   "version": "1.0.0",
+  "main": "server.js",
   "type": "module",
-  "main": "index.html",
   "scripts": {
-    "start": "serve -s . -l 3002"
+    "start": "node server.js"
   },
   "dependencies": {
-    "serve": "^14.2.1"
+    "express": "^4.18.2"
   },
   "engines": {
     "node": ">=18.0.0"
